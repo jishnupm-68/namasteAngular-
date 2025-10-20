@@ -57,3 +57,19 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+# {{ }} — Interpolation
+    -- Purpose: Display a value in the template.
+
+# [] — Property Binding
+    --Purpose: Bind a DOM property to a component property.
+
+# () — Event Binding
+    -- Purpose: Call a component method when an event happens.
+
+# [()] — Two-way Binding (Banana in a Box)
+    -- Purpose: Combine property binding ([]) + event binding (()) → two-way sync.
+
+# [()] — Custom Two-way Binding
+    -- You can make your own component support [(...)] using Input + Output:

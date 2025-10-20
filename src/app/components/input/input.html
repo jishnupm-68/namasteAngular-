@@ -1,0 +1,6 @@
+<p>input works! value is {{inputValue}}</p>
+<input type="text" [(ngModel)] = "inputValue" />
+ <a href="#overlay" (click)="showOverlay($event)">dddddd</a>
+
+ <p>Counter value is :{{initialCount}} </p>
+ <app-counter [(count)]="initialCount" [(data)]="inputValue" />
